@@ -1,0 +1,29 @@
+package com.ustglobal.hotelbilling.operation;
+
+import java.util.Scanner;
+
+import com.ustglobal.hotelbilling.beans.Hotel_Bill;
+import com.ustglobal.hotelbilling.mainservice.HotelService;
+
+public class InsertItem  {
+
+	Scanner sc = new Scanner(System.in);
+
+	static HotelOperation ho=new HotelOperation();
+	//HotelService us = new HotelService();
+	Hotel_Bill user = new Hotel_Bill();
+	
+	public void inserItem() {
+		System.out.println("Enter the item code");
+		user.setItem_code(Integer.parseInt(sc.nextLine()));
+
+		System.out.println("Enter the food name");
+		user.setFood_name(sc.nextLine());
+		System.out.println("Enter the price");
+		user.setPrice(Integer.parseInt(sc.nextLine()));
+	}
+	public static void main(String[] args) {		
+		ho.addFoodItem();
+
+	}
+}

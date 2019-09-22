@@ -1,0 +1,20 @@
+package com.ustglobal.hotebilling.dao;
+
+import com.ustglobal.hotelbilling.beans.Hotel_Bill;
+
+public interface HotelBillInterface {
+	public void showAllItems(Hotel_Bill b);
+
+	public void takeOrder(Hotel_Bill b);
+
+	public void operateOnFood(Hotel_Bill b);
+
+	public void addFoodItem(Hotel_Bill b);
+
+	public void removeFoodItem(Hotel_Bill b);
+
+	public void modifyFoodItem(Hotel_Bill b);
+
+	public void totalBill(Hotel_Bill b);
+
+}

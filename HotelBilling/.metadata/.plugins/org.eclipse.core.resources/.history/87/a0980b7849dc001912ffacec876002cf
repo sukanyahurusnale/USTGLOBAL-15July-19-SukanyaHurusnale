@@ -1,0 +1,5 @@
+package com.ustglobal.hotelbilling.operation;
+
+public class InsertItem {
+
+}

@@ -1,0 +1,113 @@
+
+jsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒHÒRMINORZ
+CODE_SMELL
+e
+squid:S106x"9Replace this use of System.out or System.err by a logger.(‹®²ˆHäRMAJORZ
+CODE_SMELL
+f
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(¤Š”“HíRMAJORZ
+CODE_SMELL
+j
+squid:S106k"9Replace this use of System.out or System.err by a logger.(Æ‰òÅşÿÿÿÿHàRMAJORZ
+CODE_SMELL
+f
+squid:S106ç"9Replace this use of System.out or System.err by a logger.(¤Š”“HæRMAJORZ
+CODE_SMELL
+·squid:S1186ƒ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(û¾îüÿÿÿÿHÙRCRITICALZ
+CODE_SMELL
+e
+squid:S106("9Replace this use of System.out or System.err by a logger.(Ü˜ÿÏHÛRMAJORZ
+CODE_SMELL
+k
+squid:S106î"9Replace this use of System.out or System.err by a logger.(¢—½šùÿÿÿÿHßRMAJORZ
+CODE_SMELL
+wsquid:S2259¹"KA "NullPointerException" could be thrown; "entityManager" is nullable here.(¼šÅµşÿÿÿÿHÊRMAJORZBUG
+€squid:S00117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸£·¨HĞRMINORZ
+CODE_SMELL
+k
+squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(ÕªĞÃøÿÿÿÿHéRMAJORZ
+CODE_SMELL
+Ysquid:S1148·"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHØRMINORZVULNERABILITY
+Zsquid:S1481¥"'Remove this unused "sc" local variable.(ğÛ²¸øÿÿÿÿHòRMINORZ
+CODE_SMELL
+Zsquid:S1481Z"(Remove this unused "res" local variable.(ßóïÎøÿÿÿÿHñRMINORZ
+CODE_SMELL
+wsquid:S2259õ"KA "NullPointerException" could be thrown; "entityManager" is nullable here.(¼šÅµşÿÿÿÿHËRMAJORZBUG
+k
+squid:S106Ã"9Replace this use of System.out or System.err by a logger.(Æ‰òÅşÿÿÿÿHêRMAJORZ
+CODE_SMELL
+j
+squid:S106'"9Replace this use of System.out or System.err by a logger.(Ñ¤«âúÿÿÿÿHÚRMAJORZ
+CODE_SMELL
+Ysquid:S1148ó"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÔRMINORZVULNERABILITY
+f
+squid:S106À"9Replace this use of System.out or System.err by a logger.(šÅHãRMAJORZ
+CODE_SMELL
+j
+squid:S106u"9Replace this use of System.out or System.err by a logger.(ŒÅİšûÿÿÿÿHìRMAJORZ
+CODE_SMELL
+e
+squid:S106)"9Replace this use of System.out or System.err by a logger.(½²ŸHÜRMAJORZ
+CODE_SMELL
+€squid:S1192"PDefine a constant instead of duplicating this literal "TestPersistence" 4 times.(ëÕáHÇRCRITICALZ
+CODE_SMELL
+ysquid:CommentedOutCodeLine‡"<This block of commented-out lines of code should be removed.(şšÅ£HóRMAJORZ
+CODE_SMELL
+|squid:S2095f"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ºûä¤ûÿÿÿÿHÈRBLOCKERZBUG
+Xsquid:S1148/"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÓRMINORZVULNERABILITY
+Xsquid:S1148}"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÕRMINORZVULNERABILITY
+usquid:S2259¶"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚—ôúÿÿÿÿHÏRMAJORZBUG
+vsquid:S22591"KA "NullPointerException" could be thrown; "entityManager" is nullable here.(¼šÅµşÿÿÿÿHÎRMAJORZBUG
+”squid:S2068`"V'password' detected in this expression, review this potentially hard-coded credential.(§¬¯çúÿÿÿÿ8¯Ä™Õ-HRBLOCKERZVULNERABILITY
+k
+squid:S106ì"9Replace this use of System.out or System.err by a logger.(®°ñÿÿÿÿÿHåRMAJORZ
+CODE_SMELL
+‡squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸£·¨8ƒÓÛ™Õ-H¹RMINORZ
+CODE_SMELL
+f
+squid:S106Ğ"9Replace this use of System.out or System.err by a logger.(‹®²ˆHçRMAJORZ
+CODE_SMELL
+j
+squid:S106n"9Replace this use of System.out or System.err by a logger.(ş•ÌŒûÿÿÿÿHèRMAJORZ
+CODE_SMELL
+f
+squid:S106’"9Replace this use of System.out or System.err by a logger.(ĞÄ…HïRMAJORZ
+CODE_SMELL
+k
+squid:S106Í"9Replace this use of System.out or System.err by a logger.(ŒÅİšûÿÿÿÿHâRMAJORZ
+CODE_SMELL
+Ysquid:S1148Õ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÖRMINORZVULNERABILITY
+k
+squid:S106”"9Replace this use of System.out or System.err by a logger.(¢—½šùÿÿÿÿHŞRMAJORZ
+CODE_SMELL
+e
+squid:S106h"9Replace this use of System.out or System.err by a logger.(šÅHîRMAJORZ
+CODE_SMELL
+psquid:S2095º"HUse try-with-resources or close this "Connection" in a "finally" clause.(Å¸ùWHÉRBLOCKERZBUG
+k
+squid:S106Æ"9Replace this use of System.out or System.err by a logger.(ş•ÌŒûÿÿÿÿHëRMAJORZ
+CODE_SMELL
+Ysquid:S1148™"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH×RMINORZVULNERABILITY
+Ysquid:S1481"'Remove this unused "sc" local variable.(ğÛ²¸øÿÿÿÿHğRMINORZ
+CODE_SMELL
+‡squid:S00117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÚ™8ƒÓÛ™Õ-H¸RMINORZ
+CODE_SMELL
+wsquid:S2259›"KA "NullPointerException" could be thrown; "entityManager" is nullable here.(¼šÅµşÿÿÿÿHÍRMAJORZBUG
+j
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ÅêµúÿÿÿÿHİRMAJORZ
+CODE_SMELL
+„squid:S2095¾"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ºûä¤ûÿÿÿÿ8Ã¨¥šÕ-H²RBLOCKERZBUG
+vsquid:S2095b"HUse try-with-resources or close this "Connection" in a "finally" clause.(Å¸ùW8Ã¨¥šÕ-H³RBLOCKERZBUG
+squid:S4144®"YUpdate this method so that its implementation is not identical to "takeOrder" on line 53.(Ñ„»8Ã¨¥šÕ-H´RMAJORZ
+CODE_SMELL
+•squid:S2068¸"V'password' detected in this expression, review this potentially hard-coded credential.(§¬¯çúÿÿÿÿ8Ã¨¥šÕ-HµRBLOCKERZVULNERABILITY
+m
+squid:S106±"9Replace this use of System.out or System.err by a logger.(ßç§¬8Ã¨¥šÕ-H¶RMAJORZ
+CODE_SMELL
+r
+squid:S106²"9Replace this use of System.out or System.err by a logger.(Åêµúÿÿÿÿ8Ã¨¥šÕ-H·RMAJORZ
+CODE_SMELL
+bsquid:S1481²"(Remove this unused "res" local variable.(ßóïÎøÿÿÿÿ8Ã¨¥šÕ-H¸RMINORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(øßœÑÿÿÿÿÿ8Ã¨¥šÕ-H¹RMAJORZ
+CODE_SMELL

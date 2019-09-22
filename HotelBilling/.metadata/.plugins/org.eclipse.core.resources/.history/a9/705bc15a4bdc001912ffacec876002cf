@@ -1,0 +1,221 @@
+package com.ustglobal.hotelbilling.operation;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+import javax.persistence.Query;
+
+import com.ustglobal.hotebilling.dao.HotelBillInterface;
+import com.ustglobal.hotelbilling.beans.Hotel_Bill;
+
+public class HotelOperation implements HotelBillInterface {
+	InsertItem ii=new InsertItem();
+	Hotel_Bill bill=new Hotel_Bill();
+	public void showAllItems() {
+
+		EntityManagerFactory entityManagerFactory = null;
+		EntityManager entityManager = null;
+		EntityTransaction transaction = null;
+		Scanner sc = new Scanner(System.in);
+		try {
+			entityManagerFactory = Persistence.createEntityManagerFactory("TestPersistence");
+			entityManager = entityManagerFactory.createEntityManager();
+			transaction = entityManager.getTransaction();
+			transaction.begin();
+
+			String query = "from Hotel_Bill";
+			Query query1 = entityManager.createQuery(query);
+			List<Hotel_Bill> rs = query1.getResultList();
+
+			for (Hotel_Bill hb : rs) {
+				System.out.println("Item Code: " + hb.getItem_code());
+				System.out.println("Item Food_Name: " + hb.getFood_name());
+				System.out.println("Item Price: " + hb.getPrice());
+				System.out.println("************************");
+			}
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		} finally {
+			entityManager.close();
+		}
+	}
+
+	public void takeOrder() {
+      
+		EntityManagerFactory entityManagerFactory = null;
+		EntityManager entityManager = null;
+		EntityTransaction transaction = null;
+		Scanner sc = new Scanner(System.in);
+		try {
+			entityManagerFactory = Persistence.createEntityManagerFactory("TestPersistence");
+			entityManager = entityManagerFactory.createEntityManager();
+			transaction = entityManager.getTransaction();
+			transaction.begin();
+
+			String query = "select food_name from Hotel_Bill where ";
+			Query query1 = entityManager.createQuery(query);
+			List<Hotel_Bill> rs = query1.getResultList();
+
+			for (Hotel_Bill hb : rs) {
+				System.out.println("Item Code: " + hb.getItem_code());
+				System.out.println("Item Food_Name: " + hb.getFood_name());
+				System.out.println("Item Price: " + hb.getPrice());
+				System.out.println("************************");
+			}
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		} finally {
+			entityManager.close();
+		}
+		
+	}
+
+	public void operateOnFood() {
+
+	}
+
+	public void addFoodItem() {
+		/*
+		 * EntityManagerFactory entityManagerFactory = null; EntityManager entityManager
+		 * = null; EntityTransaction transaction = null; Scanner sc = new
+		 * Scanner(System.in); try { entityManagerFactory =
+		 * Persistence.createEntityManagerFactory("TestPersistence"); entityManager =
+		 * entityManagerFactory.createEntityManager(); transaction =
+		 * entityManager.getTransaction(); transaction.begin();
+		 * 
+		 * Hotel_Bill hb = new Hotel_Bill(); hb.setItem_code(101);
+		 * hb.setFood_name("Dosa"); hb.setPrice(30);
+		 * 
+		 * Hotel_Bill hb1 = new Hotel_Bill(); hb1.setItem_code(102);
+		 * hb1.setFood_name("Idli"); hb1.setPrice(50);
+		 * 
+		 * Hotel_Bill hb2 = new Hotel_Bill(); hb2.setItem_code(103);
+		 * hb2.setFood_name("Samosa"); hb2.setPrice(10);
+		 * 
+		 * 
+		 * entityManager.persist(hb); entityManager.persist(hb1);
+		 * entityManager.persist(hb2);
+		 * 
+		 * System.out.println("inserted"); System.out.println();
+		 * 
+		 * } catch (Exception e) {
+		 * 
+		 * e.printStackTrace(); } finally { entityManager.close(); }
+		 */
+		
+		
+		ii.inserItem(bill);
+
+	}
+
+	public void removeFoodItem() {
+
+		EntityManagerFactory entityManagerFactory = null;
+		EntityManager entityManager = null;
+		EntityTransaction transaction = null;
+		Scanner sc = new Scanner(System.in);
+		try {
+			entityManagerFactory = Persistence.createEntityManagerFactory("TestPersistence");
+			entityManager = entityManagerFactory.createEntityManager();
+			transaction = entityManager.getTransaction();
+			transaction.begin();
+			String query = " delete from Hotel_Bill where item_code=:item_code";
+			Query query1 = entityManager.createQuery(query);
+			System.out.println("enter item code");
+			int code = sc.nextInt();
+			query1.setParameter("item_code", code);
+			int rs = query1.executeUpdate();
+			if (rs > 0) {
+				System.out.println("item removed" + rs);
+			} else {
+				System.out.println("something went wrong");
+			}
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		} finally {
+			entityManager.close();
+		}
+
+	}
+
+	public void modifyFoodItem() {
+
+		EntityManagerFactory entityManagerFactory = null;
+		EntityManager entityManager = null;
+		EntityTransaction transaction = null;
+		Scanner sc = new Scanner(System.in);
+		try {
+			entityManagerFactory = Persistence.createEntityManagerFactory("TestPersistence");
+			entityManager = entityManagerFactory.createEntityManager();
+			transaction = entityManager.getTransaction();
+			transaction.begin();
+			String query = " update Hotel_Bill set food_name=:food_name where item_code=:item_code";
+			Query query1 = entityManager.createQuery(query);
+
+			System.out.println("enter new name of item");
+			String name = sc.nextLine();
+
+			System.out.println("enter item code");
+			int code = sc.nextInt();
+
+			query1.setParameter("item_name", name);
+			query1.setParameter("item_code", code);
+
+			int rs = query1.executeUpdate();
+			if (rs > 0) {
+				System.out.println("item upadated" + rs);
+			} else {
+				System.out.println("something went wrong");
+			}
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		} finally {
+			entityManager.close();
+		}
+
+	}
+
+	public void totalBill() {
+
+		EntityManagerFactory entityManagerFactory = null;
+		EntityManager entityManager = null;
+		EntityTransaction transaction = null;
+		Scanner sc = new Scanner(System.in);
+		try {
+			entityManagerFactory = Persistence.createEntityManagerFactory("TestPersistence");
+			entityManager = entityManagerFactory.createEntityManager();
+			transaction = entityManager.getTransaction();
+			transaction.begin();
+			String query = " select sum(price) from Hotel_Bill";
+			Query query1 = entityManager.createQuery(query);
+			List<Double> rs = query1.getResultList();
+
+			for (Double hb : rs) {
+
+				System.out.println("Item Price: " + hb);
+				System.out.println("************************");
+			}
+
+		} catch (Exception e) {
+            transaction.rollback();
+			e.printStackTrace();
+		} finally {
+			entityManager.close();
+		}
+
+	}
+
+}

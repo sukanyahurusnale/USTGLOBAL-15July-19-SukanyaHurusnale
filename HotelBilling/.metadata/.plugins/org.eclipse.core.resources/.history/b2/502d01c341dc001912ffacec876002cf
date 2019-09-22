@@ -1,0 +1,10 @@
+package com.ustglobal.hotelbilling.mainservice;
+
+public class HotelService {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

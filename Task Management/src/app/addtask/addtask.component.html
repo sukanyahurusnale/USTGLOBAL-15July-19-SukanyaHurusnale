@@ -1,0 +1,18 @@
+<div class="container col-md-5 mt-5">
+    <div class="card card-body">
+        <form action="" #taskform='ngForm' (ngSubmit)='postTask(taskform)'>
+
+            <div class="form-group ">
+                <input type="hidden" name="id" #id='ngModel' class="form-control"  [(ngModel)]='service.obj.id'>
+                <label for="name">Add Task</label>
+                <input type="text" class="form-control" name="name" placeholder="enter task name here" #name='ngModel'
+                [(ngModel)]='service.obj.name'>
+                <br>
+                <button type="submit" class="btn btn-lg btn-info float-right">AddTask</button>
+            </div>
+
+
+        </form>
+
+    </div>
+</div>

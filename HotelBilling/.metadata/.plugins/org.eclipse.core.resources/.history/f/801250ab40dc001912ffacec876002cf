@@ -1,0 +1,5 @@
+package com.ustglobal.hotelbilling.beans;
+
+public class Hotel_Bill {
+
+}

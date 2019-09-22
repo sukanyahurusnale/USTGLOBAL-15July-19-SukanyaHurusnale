@@ -1,0 +1,67 @@
+package com.ustglobal.hotelbilling.mainservice;
+
+import java.util.Scanner;
+
+import com.ustglobal.hotelbilling.beans.Hotel_Bill;
+import com.ustglobal.hotelbilling.operation.HotelOperation;
+
+public class HotelService {
+
+	public static void main(String[] args) {
+
+		HotelOperation hotelOp = new HotelOperation();
+		Scanner sc = new Scanner(System.in);
+
+		while (true) {
+
+			int ch = 0;
+			System.out.println("*******************MUSIC PLAYER*******************");
+			
+			System.out.println("\n1.Show All Food Items");
+			System.out.println("\n2.Take order from customer");
+			System.out.println("\n3.Operate on food Items");
+			System.out.println("\n4.Total bill of the day");
+			System.out.println("Please enter your choice");
+			ch = sc.nextInt();
+			switch (ch) {
+			case 1:
+				break;
+
+			case 2:
+
+				break;
+
+			case 3:
+				int ch1 = 0;
+				while (ch1 <= 3) {
+					
+					System.out.println("1.Add Food Items");
+					System.out.println("2.Remove Food Items");
+					System.out.println("3.Modify Food Items");
+					System.out.println("select option");
+					ch1 = sc.nextInt();
+					switch (ch1) {
+					case 1:
+
+						break;
+					case 2:
+
+						break;
+					case 3:
+						break;
+					default:
+						System.out.println("invalid option");
+						break;
+					}
+				}
+				break;
+
+			default:
+				System.out.println("invalid option");
+
+			}
+
+		}
+	}
+
+}
