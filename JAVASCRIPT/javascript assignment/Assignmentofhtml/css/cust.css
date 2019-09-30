@@ -1,0 +1,22 @@
+div{
+    display: inline-block; 
+}
+
+fieldset{
+    width:35%;
+    height: 80%;
+    padding: 10px;
+    background-color:  rgb(190, 229, 229);
+    margin-top:10%;
+    margin-left:30%; 
+
+}
+h2
+{
+border-bottom: 1px solid black;
+}
+.full
+{
+    font-weight: bold;
+    font-size: 20px;
+}

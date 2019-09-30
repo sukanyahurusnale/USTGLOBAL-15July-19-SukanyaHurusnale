@@ -1,0 +1,27 @@
+table,td,th,tr{
+    border: 1px solid black;
+    
+    border-collapse: collapse; 
+    background-color:burlywood;
+    
+    cursor: pointer;
+}
+
+#time
+{
+    text-align: center;
+    border: none;
+background-color: chocolate;
+}
+
+#lunch
+{
+    border: none;
+    text-align: center;
+    background-color: chocolate;
+
+}
+td:hover
+{
+    background-color: darkslategrey;
+}

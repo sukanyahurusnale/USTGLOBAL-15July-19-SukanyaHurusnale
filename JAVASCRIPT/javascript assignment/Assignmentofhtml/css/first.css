@@ -1,0 +1,23 @@
+form{
+    border:2px solid black;
+    width:30%;
+    height: 80%;
+    padding: 10px;
+ margin-left:25%;
+ margin-top:10%;
+}
+button{
+     margin-left:10%;
+     padding:0px;
+
+}
+#b1
+{
+    margin-left:60px;
+    padding: 0px;
+}
+#b2
+{
+    margin-left:2px;
+    padding: 0px;
+}
