@@ -1,0 +1,42 @@
+#b1
+{
+    text-align: center;
+    width: 100%;
+     margin-bottom:5px; 
+    background-color: rgb(25, 25, 87); 
+}
+#t1
+{
+    background-color:white;
+}
+legend{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+body{
+    background-color: whitesmoke;
+}
+
+#n1
+{
+    background-color: rgb(25, 25, 87);
+    height: 90px;
+}
+#sig
+{
+    background-color: rgb(10, 177, 10);
+    color: white;
+    font-weight: bold;
+}
+#fac
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+#forg
+{
+    margin-bottom: 10px;
+}
