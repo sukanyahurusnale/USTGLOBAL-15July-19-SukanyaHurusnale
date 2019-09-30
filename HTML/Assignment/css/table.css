@@ -1,0 +1,32 @@
+  table, th,td{
+     /* border: 1px solid black; */
+     /* border-collapse: collapse; */
+     border-radius: 30px;
+     padding:5px,5px;
+     text-align: center;
+    cursor: pointer;
+    font-family: cursive;
+    
+ }
+ th{
+     background-color: rgb(42, 165, 48);
+     color:wheat;
+     
+ }
+ 
+ tr:nth-child(even)
+ {
+     background: rgb(0, 255, 0);
+ }
+  tr:nth-child(odd)
+  {
+      background-color:yellowgreen;
+  }
+  table{
+      width:100%;
+      border:none;
+  }
+  td:hover{
+background-color:slateblue;
+color: rgb(24, 10, 85);
+  }

@@ -1,0 +1,66 @@
+fieldset{
+    width: 50%;
+    margin:0%; 
+    border: 2px solid black;
+    height: 300px;
+    text-align: center;
+    border-radius: 5%;
+    background-image: url('/image/img6.jpg');
+background-size: cover;
+font-family: cursive;
+box-shadow: 10px 20px 15px black;
+}
+button{
+    margin-left: 4%;
+    height: 35px;
+    width: 70px;
+   background-color: blue;
+   border: 1px solid black;
+   border-radius: 30px;
+   font-weight:strong;
+   box-shadow: 5px 5px 5px black;
+}
+body{
+    margin-left:410px;
+    margin-top:210px;
+    background-image: url('/image/img5.jpg');
+    background-size: cover;
+    background-position: relativep;
+}
+ input[type="text"],input[type="password"]{
+
+    height:30px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;  
+}
+h2{
+    margin:5px;
+}
+input[type="text"]:focus,input[type="password"]:focus{
+outline: none;
+background-color: brown;
+}
+button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    outline: none;
+}
+legend{
+    font-size:30px;
+}
+label{
+    font-size: 25px;
+}
+#suku{
+    margin: 0px;
+    margin-top: 0px;
+}
+#suku img{
+    height: 10%;
+    width: 10%;
+    border-radius: 50px;
+    
+    
+}

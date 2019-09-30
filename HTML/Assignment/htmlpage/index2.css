@@ -1,0 +1,79 @@
+#t1
+{
+
+    float:right;
+    margin:-92px 10px;
+padding:2px;
+word-spacing: 4px;
+font-size:27px;
+
+}
+#t1 a{
+    border: 2px solid blue;
+    text-decoration:none;
+    border-radius: 5px;
+    word-spacing: 1px;
+    padding:2px;
+    color:violet;
+    background-color: blue;
+    font-weight: strong;
+
+}
+
+#img1{
+    
+    width:11%;
+    
+}
+#img1 img{
+    border-radius:65px;
+
+}
+#suku
+{
+    width:35%;
+    height:100px;
+    
+}
+#suku img{
+    width:130%;
+    height:672%;
+    margin-left:290px;
+    border-radius: 50%;
+    
+
+}
+.text
+{
+    position:relative;
+    border: 2px dotted red;
+    width:264px;
+    font-size:20px;
+    font-style: oblique;
+    opacity: 0.6;
+    float:right;
+    padding-left:8px;
+    margin:54px;
+
+}
+.text h1
+{
+    font-style: italic;
+    font-size: 20px;   
+}
+.try
+{
+ text-transform: capitalize;
+ text-shadow: 1px 1px yellow;
+ font-size: 30px;
+ width:10%;
+ padding-left: 5px;
+ margin-right: 0px;
+ 
+
+
+}
+body
+{
+    background: violet;
+}

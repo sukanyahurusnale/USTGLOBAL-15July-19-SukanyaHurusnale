@@ -1,0 +1,44 @@
+h1{
+    color: rgb(255, 41, 41);
+    width:20%;
+    margin: 0px;
+}
+
+body
+
+{
+    margin: 0px;
+background-image: url('/image/img6.jpg');
+background-size:cover;
+}
+img{
+    padding:0px;
+    margin:-36px 13px;
+    float: right;
+
+}
+label{
+    font-size: 30px;
+}
+#username
+{
+text-align:center; 
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 189px;
+}
+#passward{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 39px;
+}
+#suku img{
+    height: 80px;
+    width: 80px;
+    border-radius: 20%;
+    margin-top: 10%;
+    margin-right: 30%;
+}
+#button{
+    margin-left: 50%;
+    
+}

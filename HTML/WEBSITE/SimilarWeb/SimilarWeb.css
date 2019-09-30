@@ -1,0 +1,44 @@
+#img1{
+    /* height: 95px; */
+    width: 90px;
+    /* padding: 0px;*/
+    margin-left: 60px; 
+}
+#gets
+{
+    border: 1px solid rgb(60, 60, 250);
+    border-radius:25px; 
+}
+#t1
+{
+    background-color: rgb(51, 78, 230);
+}
+
+td:nth-child(2)
+{
+    color:rgb(118, 118, 243);
+}
+td:nth-child(3)
+{
+    color:rgb(118, 118, 243);
+}
+#nav1
+{
+    margin-left: 0px;
+    padding-left: 0px;
+    background-color: lightgray;
+    
+}
+section{
+    background-color: rgb(51, 78, 230);
+    color: white;
+    
+    
+}
+#bg1
+{
+    background-image: url('/image/back.jpg');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: right;
+}

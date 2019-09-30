@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>form</title>
+        <style>
+            form{
+                background:rgb(96, 163, 8);
+                height: 85%;
+                font-size: 30px;
+                font-family:'Times New Roman', Times, serif;
+                margin-left: 30%;
+                margin-top: 10%;
+                width: 36%;
+                border-radius: 5%;
+                border: 4px solid black;
+            }
+            div{
+                margin-left:5%; 
+            }
+            div:hover{
+                color: rgb(216, 209, 112);
+                
+            }
+         h6{
+            text-decoration: underline;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration-color: rgb(139, 8, 8);
+            font-size: 28px;
+            margin: 0px;
+            margin-bottom: 8px;
+         }
+         fieldset{
+             width:90%;   
+         }
+        </style>
+    </head>
+    <body>
+            <form action="#" method="GET">
+                    <fieldset style="border-width: 1px; border-radius:5%">
+                        <div>
+                            <h6> Registration form</h6>
+                        </div>
+        <div>
+        <label for="name" >name</label>
+        <br/>
+        <input type="text" id="name" name="name" placeholder="enter your name" required>
+        </div>
+        <div>
+                <label for="password">password</label> <br/>
+                <input type="password" id="password" name="password" placeholder="enter password" required>
+        </div>
+        <div>
+            <label for="email">email</label> <br/>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="phno">mobileno</label> <br/>
+            <input type="number" id="phno" name="phno" max="10" required>
+        </div>
+        <div>
+            <label for="gender">gender</label>
+            <br>
+            <input type="radio" id="geneder" name="gender">male
+            <input type="radio" id="gender" name="gender">female
+        </div>
+        <div>
+            <label for="month">joining month</label>
+            <input type="month" name="month" id="month"> 
+        </div>
+        <div>
+            <label for="file">upload a document</label>
+            <input type="file" name="file" id="file">
+        </div>
+        <div>
+            <input type="checkbox">I agree  
+                    </div>
+                    <div>
+                        <button style="background: red; font-size: 25px">submit</button>
+                    </div> 
+    </fieldset>
+</form>
+    </body>
+</html>

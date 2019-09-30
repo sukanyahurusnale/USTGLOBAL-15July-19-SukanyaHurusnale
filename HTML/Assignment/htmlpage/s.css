@@ -1,0 +1,12 @@
+td
+{
+    border: 1px solid red;
+    /* border-radius: 30%; */
+    background: blue;
+
+}
+th{
+    border: 1px solid red;
+    /* border-radius: 30%; */
+    background: blue; 
+}
