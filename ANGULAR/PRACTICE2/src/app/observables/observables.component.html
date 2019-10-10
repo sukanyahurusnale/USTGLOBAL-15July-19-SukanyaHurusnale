@@ -1,0 +1,21 @@
+<table class="table table-bordered table-hover mt-3 table-dark">
+    <thead class>
+        <tr>
+            <td>Index</td>
+            <td>name</td>
+            <td>company</td>
+        </tr>
+
+    </thead>
+        <tr *ngFor='let user of userService.users;index as i'>
+            <td>{{i+1}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.company}}</td>
+        </tr>
+    
+</table>
+
+<!-- <button class="btn btn-primary" (click)='printdetails()'>call function
+
+
+</button> -->

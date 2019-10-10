@@ -1,0 +1,53 @@
+<!-- <p>register works!</p> -->
+<div class="container col-md-4 mt-4 card card-body bg-warning">
+
+<form action="" [formGroup]='registerForm' (ngSubmit)='printForm(registerForm)' >
+    <legend>Register Here</legend>
+
+        <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="" name="name" formControlName="name" >
+           
+            <div *ngIf='name.touched && name.invalid'>
+                    <div class="alert alert-danger" *ngIf='name.errors.minlength'>
+                            this field requires min 5 character
+                        </div>
+                        <div class="alert alert-danger" *ngIf='name.errors.required'>
+                                this field is requires
+                            </div>
+                    </div>
+                </div>
+
+             <div class="form-group">
+            <label for="email">email</label>
+            <input type="email" class="form-control" id="" name="email" formControlName="email" >
+              <div *ngIf='email.touched && email.invalid'>
+                <div class="alert alert-danger" *ngIf='email.errors.noSpace'>
+                       no space  is  allowed
+                </div>
+                <div class="alert alert-danger" *ngIf='email.errors.required'>
+                        this field is requires
+                    </div>
+
+            </div>
+            </div>
+
+
+         <div class="form-group">
+                <label for="phno">Mobile</label>
+                <input type="number" class="form-control" id="" name="phno" formControlName="phno">
+            
+             <div *ngIf='phno.touched && phno.invalid'>
+                    <div class="alert alert-danger" *ngIf='phno.errors.minlength'>
+                            this field requires min 10 number
+                        </div>
+                        <div class="alert alert-danger" *ngIf='phno.errors.required'>
+                                this field is requires
+                            </div>
+                    </div>
+         </div>
+
+             <button type="reset" class="btn btn-outline-primary ml-3">Reset</button>
+             <button type="submit" class="btn btn-outline-primary ml-3">Register</button>   
+            </form>
+</div>

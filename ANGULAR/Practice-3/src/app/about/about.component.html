@@ -1,0 +1,9 @@
+<div class="container col-md-3 float-left">
+
+    <div class="col-md-12 card card-body" *ngFor='let ne of news'>
+        <img src="{{ne.urlToImage}}" alt="" class="card card-body img-top" (click)='sendData(ne)'>
+        <h2>{{ne.title}}</h2>
+        <p>{{ne.description}}</p>
+    </div>
+</div>
+    <app-contact [childdata]='pData'></app-contact>

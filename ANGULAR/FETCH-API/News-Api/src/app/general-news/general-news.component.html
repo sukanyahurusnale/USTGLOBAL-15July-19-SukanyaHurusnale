@@ -1,0 +1,16 @@
+<div class="container col-md-7">
+        <div class=" card card-body col-md-10 mt-4" *ngFor='let gen of General'>
+            <a href="">
+                <img src="{{gen.urlToImage}}" alt="" class="card-img-top float-left">
+            </a>
+    
+            <h3 class="text-center">
+                {{gen.title}}
+            </h3>
+            <p>
+                {{gen.description}}
+            </p>
+             <a href="{{gen.url}}" class="btn btn-primary"> </a>
+            click here for info 
+        </div>
+    </div>

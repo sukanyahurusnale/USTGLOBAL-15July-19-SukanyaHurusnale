@@ -1,0 +1,23 @@
+<div class="container">
+        <div class="col-md-11">
+         
+
+    <table class="table table-bordered table-hover mt-5">
+            <thead class="table-head">
+                    <th>userId</th>
+                    <th>id</th>
+                    <th>Title</th>
+                    <th>body</th>
+            </thead>
+            <tbody>
+                    <tr  *ngFor='let type of typicodet'>   
+                            <td>{{type.userId}}</td>
+                            <td>{{type.id}}</td>
+                            <td>{{type.title}}</td>
+                            <td>{{type.body}}</td>
+                        </tr>
+                    
+            </tbody>
+    </table>
+</div>
+</div>

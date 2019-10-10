@@ -1,0 +1,22 @@
+<table class="table container col-md-8">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>age</th>
+            <th>update</th>
+            <th>delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor='let p2 of service.student1 ;index as i'>
+            <td scope="row">{{i+1}}</td>
+            <td>{{p2.name}}</td>
+            <td>{{p2.age}}</td>
+
+            <td><button type="submit" class="btn btn-outline-success" (click)='updateUser(p2)'>Update</button></td>
+            <td><button type="submit" class="btn btn-outline-danger" (click)='deleteUser(p2)'>Delete</button></td>
+        </tr>
+
+    </tbody>
+</table>

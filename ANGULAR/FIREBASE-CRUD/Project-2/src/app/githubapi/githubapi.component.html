@@ -1,0 +1,33 @@
+
+
+<div class="container col-md-9 offset-md-1 ">
+    <div class="card card-body">
+    <h1 class="text-center ">Git Data </h1>
+    <table class="table table-bordered">
+        <thead class="table table-head table-hover ">
+            <tr>
+                    <th>Id</th>
+                <th>Photos</th>
+                
+                <th>name</th>
+                <th>repoUrl</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor='let user of angular.usersArray'>
+                    <td><a href="" class="text-center">{{user.id}}</a></td>
+            <td>
+                <img src="{{user.avatar_url}}" class="card card-body " style="max-width: 100%;height: auto;" alt="" ></td>
+            
+            <td><a href="">{{user.login}}</a></td>
+            <button class="btn btn-dark text-center mt-5"><td><a href="">{{user.repos_url}}</a></td></button>
+            <td>
+                <button type="submit" class="btn btn-outline-warning btn-danger" (click)='deleteUser(user)'>Delete</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</div>

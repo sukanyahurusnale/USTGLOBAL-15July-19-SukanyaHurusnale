@@ -1,0 +1,46 @@
+ <!-- <p>directives works!</p> -->
+
+<!-- <ul class="list-group">
+    <li class="list-group-item"
+        *ngFor='let user of users'>{{user.name}}</li>
+    
+</ul>  -->
+
+
+<div class="container">
+       
+<!-- <div *ngIf='condition' class="alert alert-success">user removed -->
+<div  *ngIf="condition" class="alert alert-warning alert-dismissible fade show" role="alert">
+       
+        <strong>User removed!</strong> successfully
+        <button  type="button" class="close" data-dismiss="alert"  aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    
+
+
+
+
+<table class="table mt-5 table-bordered table-hover bg-info">
+    <thead class="thead-dark">
+<tr>
+    <th>Id</th>
+    <th>name</th>
+    <th>age</th>
+    <th>delete</th>
+</tr>
+
+    </thead>
+<tbody>
+    <tr *ngFor='let i of users'>
+ <td>{{i.id}}</td>
+ <td>{{i.name}}</td>
+ <td>{{i.age}}</td>
+<td ><button class="btn btn-outline-danger" (click)='removeUser(i)'>remove</button></td>
+
+    </tr>
+</tbody>
+</table>
+</div>
+<!-- <div*ngIf='condition'>condition is true</div> -->

@@ -1,0 +1,14 @@
+<div class="container col-md-7">
+    <div class="col-md-10 mt-4 card card-body" *ngFor='let newsobj of news'>
+        <a href="">
+            <img src="{{newsobj.urlToImage}}" alt="" class="card card-body card-img-top"> 
+        </a>    
+    <h2 class="text-center">
+            {{newsobj.title}}
+    </h2>
+
+    <p>
+            {{newsobj.description}}
+    </p>
+    </div>
+</div>

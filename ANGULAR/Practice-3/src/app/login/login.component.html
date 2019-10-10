@@ -1,0 +1,74 @@
+<div class="container card-body col-md-7">
+    <form action="" #loginForm='ngForm'>
+        <div class="form-group">
+            <label for="username">username</label>
+            <input type="text" name="username" id="" class="form-control" placeholder="enter username"
+                #username='ngModel' ngModel required minlength="5">
+
+            <div *ngIf='username.touched && username.invalid'>
+                <div class="alert alert-danger" *ngIf='username.errors.required'>
+                    this input field cannot empty
+                </div>
+
+                <div class="alert alert-danger" *ngIf='username.errors.minlength'>
+                    this field requires min 5 character
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="email">email</label>
+            <input type="email" name="email" id="" class="form-control" placeholder="enter email" #email='ngModel'
+                ngModel required minlength="5">
+
+            <div *ngIf='username.touched && username.invalid'>
+                <div class="alert alert-danger" *ngIf='username.errors.email'>
+                    this input field accepet email
+                </div>
+                <div class="alert alert-danger" *ngIf='username.errors.minlength'>
+                    this field requires min 5 character
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="password">password</label>
+            <input type="password" name="password" id="" class="form-control" placeholder="enter password"
+                #password='ngModel' ngModel required minlength="5">
+            <div *ngIf='password.touched && password.invalid'>
+                <div class="alert alert-danger" *ngIf='password.errors.required'>
+                    this input field should not empty
+                </div>
+                <div class="alert alert-danger" *ngIf='password.errors.minlength'>
+                    this field requires min 5 character
+                </div>
+            </div>
+        </div>
+
+        <button type="reset" class="btn btn-outline-primary ml-3">Reset</button>
+        <button type="submit" class="btn btn-outline-primary ml-3" (click)='printForm(loginForm)'
+            [disabled]="loginForm.invalid">Submit</button>
+    </form>
+</div>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>username</th>
+            <th>email</th>
+            <th>password</th>
+            <th>delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor='let users of user'>
+            <td scope="row">{{users.username}}</td>
+            <td>{{users.email}}</td>
+            <td>{{users.password}}</td>
+            <td><button type="button" class="btn btn-outline-primary ml-3" (click)='deleteForm(users)'>Delete</button>
+            </td>
+        </tr>
+
+    </tbody>
+</table>

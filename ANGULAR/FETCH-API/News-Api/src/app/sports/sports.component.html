@@ -1,0 +1,16 @@
+<div class="container col-md-7">
+        <div class=" card card-body col-md-10 mt-4" *ngFor='let sport of Sport'>
+            <a href="">
+                <img src="{{sport.urlToImage}}" alt="" class="card-img-top float-left">
+            </a>
+    
+            <h3 class="text-center">
+                {{sport.title}}
+            </h3>
+            <p>
+                {{sport.description}}
+            </p>
+             <a href="{{sport.url}}" class="btn btn-primary">  click here for info </a>
+            
+        </div>
+    </div>

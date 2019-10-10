@@ -1,0 +1,19 @@
+<div class="col-md-4 offset-md-4 mt-4" style="border: 1px solid blue">  
+    <h3 class="text-center">Add Car details</h3>
+    <form #userForm='ngForm' (ngSubmit)='postUser(userForm)'>
+    
+         <input type="hidden" name="id" class="form-control mb-3 " #id='ngModel'  [(ngModel)]=' firebaseService.selectedUser.id'>  
+        <input type="text" name="brand" class="form-control mb-3 " #brand='ngModel'  [(ngModel)]=' firebaseService.selectedUser.brand'   
+        placeholder="enter name here">
+       <input type="text" name="model" class="form-control mb-3" #model='ngModel'   [(ngModel)]=' firebaseService.selectedUser.model' 
+        placeholder="enter model here">
+       <input type="number" name="unitsold" class="form-control mb-3 mt-3" #unitsold='ngModel'   [(ngModel)]=' firebaseService.selectedUser.unitsold'   
+        placeholder="enter unit sold here">
+         <input type="number" name="yearofrelease" class="form-control mb-3 mt-3" #yearofrelease='ngModel'   [(ngModel)]=' firebaseService.selectedUser.yearofrelease'   placeholder="enter year of release here">
+         <input type="number" name="cost" class="form-control mb-3 mt-3" #cost='ngModel'   [(ngModel)]=' firebaseService.selectedUser.cost'
+         placeholder="enter cost">
+        <button type="submit" class="btn btn-outline-success float-right">submit</button>
+    </form>
+    
+    </div>
+        

@@ -1,0 +1,9 @@
+<!-- <p class ="bg-dark text-white text-center">
+<input type="text" class="form-control mt-5 mb-2" [(ngModel)]='inputData'>
+</p> -->
+<!-- <app-output-child [dataFromParent]='inputData'></app-output-child>    -->
+<!-- <h1>{{dataFromChild}}</h1> -->
+
+<img src="{{dataFromChild}}" alt="">   
+
+<app-output-child   (childData)='dataFromChild=$event'></app-output-child>

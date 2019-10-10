@@ -1,0 +1,21 @@
+thead{
+    background-color: rgb(152, 133, 233);
+    color: white;
+}
+tr:hover{
+    background-color: lightgray;
+}
+
+img{
+    height: 100%;
+}
+img:hover{
+    transform: scale(1);
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+button{
+    color: white;
+}

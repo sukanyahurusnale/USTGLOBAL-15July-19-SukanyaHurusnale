@@ -1,0 +1,26 @@
+<div class="container">
+    <table class="table-bordered table-hover">
+        <thead class="thead-dark">
+            <th>id</th>
+            <th>name</th>
+            <th>address</th>
+            <th>age</th>
+            <th>update</th>
+            <th>delete</th>
+        </thead>
+        <tbody>
+            <tr *ngFor='let stud1 of suku.studArray;index as i '>
+                <td>{{i+1}}</td>
+                <td>{{stud1.name}}</td>
+                <td>{{stud1.address}}</td>
+                <td>{{stud1.age}}</td>
+                <td>
+                    <button class="btn btn-outline-warning" (click)='updateUser(stud1)'>Update</button>
+                </td>
+                <td>
+                        <button class="btn btn-outline-warning" (click)='deleteUser(stud1)'>Delete</button>
+                    </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

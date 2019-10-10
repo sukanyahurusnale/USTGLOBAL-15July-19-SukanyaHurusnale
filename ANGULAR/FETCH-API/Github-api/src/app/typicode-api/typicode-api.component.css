@@ -1,0 +1,11 @@
+tr:nth-child(odd)
+{
+    background-color: lightslategray;
+}
+tr:nth-child(odd)
+{
+    background-color: lightsteelblue;
+}
+thead{
+    background-color: grey;
+}

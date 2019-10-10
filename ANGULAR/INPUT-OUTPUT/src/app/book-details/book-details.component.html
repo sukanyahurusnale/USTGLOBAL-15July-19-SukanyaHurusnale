@@ -1,0 +1,26 @@
+<div class="container col-md-8">
+    <table>
+        <thead>
+            <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>cost</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let b2 of  newservice.booksdata;index as i'>
+            <td>{{i+1}}</td>
+            <td>{{b2.name}}}</td>
+            <td>{{b2.cost}}</td>
+            <td>
+                <button type="submit" class="btn btn-outline-warning" click="updateUser(b2)">update</button>
+            </td>
+            <td>
+                    <button type="submit" class="btn btn-outline-danger" click="deleteUser(b2)">Delete</button>
+                </td>
+        </tr>
+        </tbody>
+    </table>
+</div>

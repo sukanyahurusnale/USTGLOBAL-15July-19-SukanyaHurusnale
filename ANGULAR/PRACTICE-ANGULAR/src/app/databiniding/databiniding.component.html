@@ -1,0 +1,14 @@
+<img src="{{imageUrl}}" alt="">
+<img [src]="imageUrl" alt="">
+<!-- <h1 [class.bg-dark]="isApplicable" [class.text-color]="color">{{name}}</h1> -->
+
+<h1 [ngClass]="{'bg-dark':isApplicable,'text-white':isApplicable}">{{name}}</h1> 
+
+<h1 [style.color]="colorname">{{name}}</h1>
+
+<h1 [ngStyle]="{'color':bgcolor,'background':bgcolor}">
+   {{name}} 
+</h1>
+<button class=" btn btn-alert" (click)="printAlert()"> click here</button>
+<input type="text" [(ngModel)]="search" placeholder="search here"  class="form-control col-md-4 offset-4">
+<h1 class= "form-control col-md-4 offset-4">{{search}}</h1>

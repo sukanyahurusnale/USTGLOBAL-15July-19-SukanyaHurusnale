@@ -1,0 +1,14 @@
+<div class="container col-md-5 offset-3 mt-5 bg-dark">
+    <form action="" #bookform='ngForm' (ngSubmit)="postUser(bookform)">
+        <input type="hidden" name="id" #id='ngModel'  class="form-control" [(ngModel)]='newservice.bookarray.id' >
+
+   <input type="text" name="name" id="" #name='ngModel'  class="form-control" [(ngModel)]='newservice.bookarray.name'
+    required placeholder=" enter name">
+<br>
+    <input type="number"  class="form-control" name="cost" id="" #cost='ngModel' 
+    [(ngModel)]='newservice.bookarray.cost'  required placeholder=" enter cost">
+    <br>
+ <button type="submit" class="btn btn-outline-success">submit</button>
+
+    </form>
+</div>

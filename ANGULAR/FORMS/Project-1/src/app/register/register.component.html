@@ -1,0 +1,37 @@
+
+<div class="background_color">
+    <div class="container">
+        <div class="col-md-5 offset-md-3 mt-5 card card-body abc">
+            <h2 class="text-center">Register Here</h2>
+            <div class="form-group">
+            <form action=""  #register='ngForm' (ngSubmit)='registerForm(register)'>
+                <label for="name">Username<sup>*</sup></label>
+                    <input type="text" name="uname" id="" class="form-control" placeholder="Enter Username" #name='ngModel' ngModel minlength="5"  required>
+                        <div *ngIf='name.touched && name.invalid'>
+                            <div class="alert alert-danger" *ngIf='name.errors.minlength'>
+                                Invalid Username
+                            </div> 
+                            <div class="alert alert-danger" *ngIf='name.errors.required'>
+                                Username cannot be Empty
+                            </div>    
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="password">Password<sup>*</sup></label>
+                                <input type="password" name="password" id="" class="form-control" placeholder="Enter Password"  #password='ngModel' ngModel 
+                                    minlength="5" required>
+                                    <div *ngIf='password.touched && password.invalid'>
+                                        <div class="alert alert-danger" *ngIf='password.errors.minlength'>
+                                            Password too short..! At least 5 character is needed
+                                        </div> 
+                                        <div class="alert alert-danger" *ngIf='password.errors.required'>
+                                        Password are necessary!
+                                        </div>    
+                                    </div>
+                                    <br>
+                            <button type="submit" class="btn btn-success offset-md-5 mt-2" > Register</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+</div>

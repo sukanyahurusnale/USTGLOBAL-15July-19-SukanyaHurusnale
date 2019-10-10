@@ -1,0 +1,61 @@
+
+<div class="container card card-body col-md-4 mt-5">
+    
+<form action="" #loginForm='ngForm'>
+
+    <legend>Please Login</legend>
+
+    <div class="form-group">
+        <label for="">Username</label>
+        <input type="email" class="form-control" id="" placeholder="Input field" name="username"  
+           #username='ngModel' ngModel required minlength="5" email>
+
+           <div *ngIf='username.touched && username.invalid'>
+               <div class="alert alert-danger" *ngIf='username.errors.email'>
+                   this input field takes only email 
+                  </div>
+
+                  <div class="alert alert-danger" *ngIf='username.errors.minlength'>
+                      this field requires min 5 character
+                  </div>
+           </div>
+    </div>
+    
+
+<div>
+    <label for="">password</label>
+    <input type="password" class="form-control" id="" name="password"
+    #password='ngModel'minlength="5" ngModel required>
+     <div *ngIf='password.touched && password.invalid'>
+            <div class="alert alert-danger" *ngIf='password.errors.minlength'>
+                    this field requires min 5 character
+                </div>
+    
+    </div>
+ </div> 
+<!-- </div> -->
+
+
+<button type="reset" class="btn btn-outline-primary ml-3">Reset</button>
+<button type="submit" class="btn btn-outline-primary ml-3" (ngSubmit)='printForm(loginForm)'>Submit</button>    
+
+
+</form>
+
+</div>
+
+
+
+<table>
+    <tr>
+        <th>index</th>
+        <th>username</th>
+        <th>password</th>
+    </tr>
+
+    <tr *ngFor='let user of users;index as i'>
+        <td>{{i+1}}</td>
+        <td>{{user.Username}}</td>
+        <td>{{user.password}}</td>
+    </tr>
+</table>

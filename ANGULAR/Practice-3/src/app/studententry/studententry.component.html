@@ -1,0 +1,9 @@
+<div class="container col-md-5 offset-3">
+    <form action="" #student='ngForm' (ngSubmit)='postUser(student)'>
+        <input type="hidden" name="id" #id='ngModel' [(ngModel)]='service.exStudent.id' class="form-control">
+        <input type="text" name="name" #name='ngModel' [(ngModel)]='service.exStudent.name' class="form-control" placeholder="enter name">
+        <input type="number" name="age" #age='ngModel'  [(ngModel)]='service.exStudent.age' class="form-control" placeholder="enter age">
+        <br>
+        <button type="submit" class="btn btn-outline-success">submit</button>
+    </form>
+</div>

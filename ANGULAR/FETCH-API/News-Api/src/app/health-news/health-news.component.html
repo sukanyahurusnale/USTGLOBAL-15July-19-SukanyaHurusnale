@@ -1,0 +1,16 @@
+<div class="container col-md-7">
+        <div class=" card card-body col-md-10 mt-4" *ngFor='let hell of Health'>
+            <a href="">
+                <img src="{{hell.urlToImage}}" alt="" class="card-img-top float-left">
+            </a>
+    
+            <h3 class="text-center">
+                {{hell.title}}
+            </h3>
+            <p>
+                {{hell.description}}
+            </p>
+             <a href="{{hell.url}}" class="btn btn-primary"> </a>
+            click here for info 
+        </div>
+    </div>

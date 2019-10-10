@@ -1,0 +1,9 @@
+
+<div class="container mt-6 card card-body float-left"  *ngFor='let prod of firebaseService.products'>
+        
+    <img src="{{prod.image}}" alt="" style="height: 50%;width:40%" >
+     <h4>{{prod.brand}}</h4>
+     <button class="btn btn-outline-warning" (click)='updateUser(prod)'>update</button>
+    <button class="btn btn-outline-danger" (click)='deleteUser(prod)'>  Delete </button>
+
+</div>

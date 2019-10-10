@@ -1,0 +1,36 @@
+<div class="container col-md-4 mt-4 card card-body bg-info">
+   <form action="" [formGroup]='reactiveform' (ngSubmit)='printForm(reactiveform)'>
+      <legend>register here</legend>
+
+      <div class="form-group">
+         <label for="name">Name</label>
+         <input type="text" name="name" id="" class="form-control" placeholder="" formControlName="name">
+         <div *ngIf='name.touched && name.invalid'>
+            <div class="alert alert-danger" *ngIf='name.errors.minlength'>
+               this field requires atleast 5 character
+            </div>
+            <div class="alert alert-danger" *ngIf='name.errors.required'>
+               this field should not be empty
+            </div>
+         </div>
+      </div>
+
+      <div class="form-group">
+         <label for="password">Password</label>
+         <input type="text" name="password" id="" class="form-control" placeholder="" formControlName="password">
+         <div *ngIf='password.touched && password.invalid'>
+            <div class="alert alert-danger" *ngIf='password.errors.minlength'>
+               password requires atleast 5 character
+            </div>
+            <div class="alert alert-danger" *ngIf='password.errors.required'>
+               password is mandatory
+            </div>
+
+         </div>
+
+      </div>
+      <button type="submit" class="btn btn-outline-danger ml-3">submit </button>
+      <button type="reset" class="btn btn-outline-danger ml-3">Reset</button>
+
+   </form>
+</div>

@@ -1,0 +1,15 @@
+<div class="col-md-4 offset-md-4 mt-4 bg-dark" >
+    <h3>Add student details</h3>
+     <form #studForm='ngForm'  (ngSubmit)='postUser(studForm)'>
+         <input type="hidden" name="id" #id='ngModel' [(ngModel)]='suku.studentsData.id' >
+         <input type="text" name="name" #name='ngModel' class="form-control mb-3 " [(ngModel)]='suku.studentsData.name' 
+         placeholder="enter name"><br>
+         <input type="text" name="address" #address='ngModel'class="form-control mb-3 " [(ngModel)]='suku.studentsData.address'
+         placeholder="enter address"><br>
+         <input type="number" name="age" #age='ngModel'  class="form-control mb-3 " [(ngModel)]='suku.studentsData.age' 
+          placeholder="enter age"><br>
+         <button type="submit" class="btn btn-outline-success float-right">submit</button>
+
+     </form>
+</div>
+
