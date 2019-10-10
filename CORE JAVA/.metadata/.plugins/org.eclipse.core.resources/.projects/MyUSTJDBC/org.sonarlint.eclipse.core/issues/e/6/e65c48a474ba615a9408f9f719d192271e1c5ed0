@@ -1,0 +1,44 @@
+
+j
+squid:S1067"9Replace this use of System.out or System.err by a logger.(¼ø‡ºøÿÿÿÿH÷"RMAJORZ
+CODE_SMELL
+j
+squid:S1068"9Replace this use of System.out or System.err by a logger.(¦Ÿ˜ŠúÿÿÿÿHú"RMAJORZ
+CODE_SMELL
+csquid:S1135O"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHó"RINFOZ
+CODE_SMELL
+Xsquid:S1148Y"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH„#RMINORZVULNERABILITY
+e
+squid:S1064"9Replace this use of System.out or System.err by a logger.(˜Í ¥Hÿ"RMAJORZ
+CODE_SMELL
+csquid:S1135X"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHü"RINFOZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(´ •ßHò"RMAJORZ
+CODE_SMELL
+j
+squid:S106!"9Replace this use of System.out or System.err by a logger.(¦Ÿ˜ŠúÿÿÿÿH‚#RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(íøÆ‘Hõ"RMAJORZ
+CODE_SMELL
+Xsquid:S1148G"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHø"RMINORZVULNERABILITY
+_squid:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿHı"RMAJORZ
+CODE_SMELL
+j
+squid:S1065"9Replace this use of System.out or System.err by a logger.(Ê ÙáøÿÿÿÿHƒ#RMAJORZ
+CODE_SMELL
+j
+squid:S106)"9Replace this use of System.out or System.err by a logger.(·»ó¢ÿÿÿÿÿHû"RMAJORZ
+CODE_SMELL
+e
+squid:S106>"9Replace this use of System.out or System.err by a logger.(‹®²ˆH€#RMAJORZ
+CODE_SMELL
+Xsquid:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHô"RMINORZVULNERABILITY
+e
+squid:S1066"9Replace this use of System.out or System.err by a logger.(±óÚßHş"RMAJORZ
+CODE_SMELL
+e
+squid:S106 "9Replace this use of System.out or System.err by a logger.(²…œ¶Hù"RMAJORZ
+CODE_SMELL
+Xsquid:S1148P"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH#RMINORZVULNERABILITY

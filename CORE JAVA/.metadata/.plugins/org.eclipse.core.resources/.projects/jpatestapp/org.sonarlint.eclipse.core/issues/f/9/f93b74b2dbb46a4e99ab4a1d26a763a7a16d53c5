@@ -1,0 +1,24 @@
+
+psquid:S18546">Remove this useless assignment to local variable "resultList".(ŠîíÿÿÿÿÿHüRMAJORZ
+CODE_SMELL
+fsquid:S1854"9Remove this useless assignment to local variable "movie".(Ñß›HıRMAJORZ
+CODE_SMELL
+asquid:EmptyStatementUsageCheck@"Remove this empty statement.(Åñ­õşÿÿÿÿHşRMINORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(¯ëºñúÿÿÿÿHÿRMAJORZ
+CODE_SMELL
+e
+squid:S106%"9Replace this use of System.out or System.err by a logger.(‹°¯­H€ RMAJORZ
+CODE_SMELL
+j
+squid:S106*"9Replace this use of System.out or System.err by a logger.(—›½çıÿÿÿÿH RMAJORZ
+CODE_SMELL
+tsquid:S2259?"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚—ôúÿÿÿÿH‚ RMAJORZBUG
+asquid:S14816"/Remove this unused "resultList" local variable.(ŠîíÿÿÿÿÿHƒ RMINORZ
+CODE_SMELL
+j
+squid:S106/"9Replace this use of System.out or System.err by a logger.(„ı¹ÿÿÿÿÿÿH„ RMAJORZ
+CODE_SMELL
+Wsquid:S1481"*Remove this unused "movie" local variable.(Ñß›H… RMINORZ
+CODE_SMELL
+Xsquid:S1148>"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH† RMINORZVULNERABILITY

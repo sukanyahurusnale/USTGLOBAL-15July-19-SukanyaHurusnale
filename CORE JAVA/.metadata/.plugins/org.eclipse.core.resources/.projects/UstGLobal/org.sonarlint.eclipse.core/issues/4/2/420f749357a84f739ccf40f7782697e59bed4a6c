@@ -1,0 +1,41 @@
+
+squid:S14880"[Immediately return this expression instead of assigning it to the temporary variable "res".(¼¼ÏíüÿÿÿÿHá#RMINORZ
+CODE_SMELL
+ssquid:S00112("FDefine and throw a dedicated exception instead of using a generic one.(‰ÆáeHâ#RMAJORZ
+CODE_SMELL
+ysquid:S00112%"FDefine and throw a dedicated exception instead of using a generic one.(šĞë‰úÿÿÿÿHã#RMAJORZ
+CODE_SMELL
+Œsquid:S1149*"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¾ü’•Hä#RMAJORZ
+CODE_SMELL
+e
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(şÑŞñHå#RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(šÊº÷Hæ#RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿHç#RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(Š¢¼æHè#RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(¯–œûøÿÿÿÿHé#RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(Š¢¼æHê#RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(¬õëüHë#RMAJORZ
+CODE_SMELL
+j
+squid:S106 "9Replace this use of System.out or System.err by a logger.(úñ¡‚ÿÿÿÿÿHì#RMAJORZ
+CODE_SMELL
+j
+squid:S106+"9Replace this use of System.out or System.err by a logger.(­ËÖşÿÿÿÿHí#RMAJORZ
+CODE_SMELL
+wsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÁÕ¿bHî#RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†€éˆHï#RMAJORZ
+CODE_SMELL

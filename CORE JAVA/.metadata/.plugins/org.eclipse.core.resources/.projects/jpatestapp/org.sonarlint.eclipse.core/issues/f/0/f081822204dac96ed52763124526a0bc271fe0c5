@@ -1,0 +1,17 @@
+
+}squid:CommentedOutCodeLineX"<This block of commented-out lines of code should be removed.(Þ•„“ùÿÿÿÿHŽ"RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(ÚÞ¦ûÿÿÿÿH"RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(¯¢¹˜8­þþÔ-H"RMAJORZ
+CODE_SMELL
+Xsquid:S1148`"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH‘"RMINORZVULNERABILITY
+xsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(¯¢¹˜H’"RMAJORZ
+CODE_SMELL
+tsquid:S2259a"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚—ôúÿÿÿÿH“"RMAJORZBUG
+asquid:EmptyStatementUsageCheckb"Remove this empty statement.(Åñ­õþÿÿÿÿH”"RMINORZ
+CODE_SMELL
+Wsquid:S1481"*Remove this unused "movie" local variable.(ÑŽß›H•"RMINORZ
+CODE_SMELL
+fsquid:S1854"9Remove this useless assignment to local variable "movie".(ÑŽß›H–"RMAJORZ
+CODE_SMELL

@@ -1,0 +1,23 @@
+
+vsquid:S22599"KA "NullPointerException" could be thrown; "entityManager" is nullable here.(¼šÅµþÿÿÿÿHÝRMAJORZBUG
+tsquid:S22597"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚—ôúÿÿÿÿHÞRMAJORZBUG
+msquid:UselessImportCheck".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿHßRMINORZ
+CODE_SMELL
+Xsquid:S11486"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHàRMINORZVULNERABILITY
+j
+squid:S106""9Replace this use of System.out or System.err by a logger.(×úÙ­ûÿÿÿÿHáRMAJORZ
+CODE_SMELL
+j
+squid:S106$"9Replace this use of System.out or System.err by a logger.(×úÙ­ûÿÿÿÿHâRMAJORZ
+CODE_SMELL
+j
+squid:S106'"9Replace this use of System.out or System.err by a logger.(×úÙ­ûÿÿÿÿHãRMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£¤•»ùÿÿÿÿHäRMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(ŽçŸÚýÿÿÿÿHåRMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(²‘Ž³ÿÿÿÿÿHæRMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(£ÁºÅHçRMAJORZ
+CODE_SMELL

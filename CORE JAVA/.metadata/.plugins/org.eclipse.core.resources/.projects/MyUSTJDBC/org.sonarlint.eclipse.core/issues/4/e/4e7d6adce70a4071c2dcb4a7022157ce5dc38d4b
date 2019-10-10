@@ -1,0 +1,47 @@
+
+_squid:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿHß"RMAJORZ
+CODE_SMELL
+j
+squid:S1067"9Replace this use of System.out or System.err by a logger.(ŒÅİšûÿÿÿÿHà"RMAJORZ
+CODE_SMELL
+csquid:S1135Q"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHá"RINFOZ
+CODE_SMELL
+j
+squid:S106/"9Replace this use of System.out or System.err by a logger.(î‚¡ûÿÿÿÿHâ"RMAJORZ
+CODE_SMELL
+e
+squid:S106?"9Replace this use of System.out or System.err by a logger.(‹®²ˆHã"RMAJORZ
+CODE_SMELL
+Xsquid:S1148R"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHä"RMINORZVULNERABILITY
+csquid:S1135H"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHå"RINFOZ
+CODE_SMELL
+Xsquid:S1148I"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHæ"RMINORZVULNERABILITY
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÓÍşˆüÿÿÿÿHç"RMAJORZ
+CODE_SMELL
+j
+squid:S106)"9Replace this use of System.out or System.err by a logger.(´±À¯şÿÿÿÿHè"RMAJORZ
+CODE_SMELL
+Xsquid:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHé"RMINORZVULNERABILITY
+e
+squid:S106,"9Replace this use of System.out or System.err by a logger.(î¹¸êHê"RMAJORZ
+CODE_SMELL
+j
+squid:S106!"9Replace this use of System.out or System.err by a logger.(¦Ÿ˜ŠúÿÿÿÿHë"RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(íøÆ‘Hì"RMAJORZ
+CODE_SMELL
+e
+squid:S106:"9Replace this use of System.out or System.err by a logger.(‹®²ˆHí"RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(ğß—úûÿÿÿÿHî"RMAJORZ
+CODE_SMELL
+hsquid:UselessImportCheck"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚwHï"RMINORZ
+CODE_SMELL
+e
+squid:S106&"9Replace this use of System.out or System.err by a logger.(€Ğÿ¼Hğ"RMAJORZ
+CODE_SMELL
+e
+squid:S106 "9Replace this use of System.out or System.err by a logger.(²…œ¶Hñ"RMAJORZ
+CODE_SMELL

@@ -1,0 +1,28 @@
+
+j
+squid:S106%"9Replace this use of System.out or System.err by a logger.(ÅêµúÿÿÿÿH‡$RMAJORZ
+CODE_SMELL
+j
+squid:S1065"9Replace this use of System.out or System.err by a logger.(§òããüÿÿÿÿHˆ$RMAJORZ
+CODE_SMELL
+tsquid:S2259?"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚—ôúÿÿÿÿH‰$RMAJORZBUG
+j
+squid:S1067"9Replace this use of System.out or System.err by a logger.(ÅêµúÿÿÿÿHŠ$RMAJORZ
+CODE_SMELL
+e
+squid:S106-"9Replace this use of System.out or System.err by a logger.(‹°¯­H‹$RMAJORZ
+CODE_SMELL
+e
+squid:S106#"9Replace this use of System.out or System.err by a logger.(•ğ§ĞHŒ$RMAJORZ
+CODE_SMELL
+j
+squid:S106$"9Replace this use of System.out or System.err by a logger.(œĞ¥ÄûÿÿÿÿH$RMAJORZ
+CODE_SMELL
+e
+squid:S106""9Replace this use of System.out or System.err by a logger.(ÏÏ¨®H$RMAJORZ
+CODE_SMELL
+vsquid:S2259B"KA "NullPointerException" could be thrown; "entityManager" is nullable here.(¼šÅµşÿÿÿÿH$RMAJORZBUG
+Xsquid:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH$RMINORZVULNERABILITY
+j
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ÀÇ“üÿÿÿÿH‘$RMAJORZ
+CODE_SMELL

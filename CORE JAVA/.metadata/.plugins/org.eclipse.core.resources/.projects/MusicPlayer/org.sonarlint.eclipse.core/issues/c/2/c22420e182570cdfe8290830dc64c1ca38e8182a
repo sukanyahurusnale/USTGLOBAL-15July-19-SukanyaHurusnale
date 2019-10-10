@@ -1,0 +1,48 @@
+
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(øœ×‹HÒRMAJORZ
+CODE_SMELL
+j
+squid:S106:"9Replace this use of System.out or System.err by a logger.(Ğ¢ÎÜøÿÿÿÿHÓRMAJORZ
+CODE_SMELL
+e
+squid:S1069"9Replace this use of System.out or System.err by a logger.(óÚ®µHÔRMAJORZ
+CODE_SMELL
+j
+squid:S106O"9Replace this use of System.out or System.err by a logger.(ìù”½üÿÿÿÿHÕRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(ã¢«¾HÖRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(’§à¿H×RMAJORZ
+CODE_SMELL
+d
+squid:S106;"9Replace this use of System.out or System.err by a logger.(ÍøŞHØRMAJORZ
+CODE_SMELL
+j
+squid:S106H"9Replace this use of System.out or System.err by a logger.(ìù”½üÿÿÿÿHÙRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(ûÕşHÚRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(È•ñ¼şÿÿÿÿHÛRMAJORZ
+CODE_SMELL
+e
+squid:S1068"9Replace this use of System.out or System.err by a logger.(’§à¿HÜRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(•çö§HİRMAJORZ
+CODE_SMELL
+Osquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿHŞRBLOCKERZBUG
+„squid:S1192'"ODefine a constant instead of duplicating this literal "invalid option" 3 times.(ìù”½üÿÿÿÿHßRCRITICALZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(”—¥ÓHàRMAJORZ
+CODE_SMELL
+j
+squid:S106'"9Replace this use of System.out or System.err by a logger.(ìù”½üÿÿÿÿHáRMAJORZ
+CODE_SMELL
+‚squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Çµí‘HâRCRITICALZ
+CODE_SMELL

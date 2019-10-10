@@ -1,0 +1,13 @@
+
+nsquid:S2259-"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ïÿÅHÎRMAJORZBUG
+j
+squid:S106%"9Replace this use of System.out or System.err by a logger.(¢—½šùÿÿÿÿHÑRMAJORZ
+CODE_SMELL
+Xsquid:S1148,"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÏRMINORZVULNERABILITY
+[squid:EmptyStatementUsageCheck-"Remove this empty statement.(ïÿÅHÓRMINORZ
+CODE_SMELL
+e
+squid:S106""9Replace this use of System.out or System.err by a logger.(ˆûââHÒRMAJORZ
+CODE_SMELL
+zsquid:UselessImportCheck	"9Remove this unused import 'com.ust.jpatestapp.dto.Movie'.(¢Æò8é×şÔ-HçRMINORZ
+CODE_SMELL

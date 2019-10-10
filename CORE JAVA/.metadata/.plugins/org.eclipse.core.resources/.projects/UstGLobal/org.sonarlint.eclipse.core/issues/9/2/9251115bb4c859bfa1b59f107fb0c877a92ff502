@@ -1,0 +1,7 @@
+
+‰squid:S1450"WRemove the "password" field and declare it as a local variable in the relevant methods.(œãë­úÿÿÿÿHÈ#RMINORZ
+CODE_SMELL
+‹squid:S1210$"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(âßî‚ùÿÿÿÿHÉ#RMINORZ
+CODE_SMELL
+^squid:S1068",Remove this unused "password" private field.(œãë­úÿÿÿÿHÊ#RMAJORZ
+CODE_SMELL

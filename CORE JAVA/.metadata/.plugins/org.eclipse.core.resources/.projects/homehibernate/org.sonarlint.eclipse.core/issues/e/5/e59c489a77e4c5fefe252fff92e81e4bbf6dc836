@@ -1,0 +1,9 @@
+
+d
+squid:S106!"9Replace this use of System.out or System.err by a logger.(Ë“¨#H¯$RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÏÏ¨®H°$RMAJORZ
+CODE_SMELL
+vsquid:S2259#"KA "NullPointerException" could be thrown; "entityManager" is nullable here.(¼šÅµþÿÿÿÿH±$RMAJORZBUG
+tsquid:S2259 "IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚—ôúÿÿÿÿH²$RMAJORZBUG

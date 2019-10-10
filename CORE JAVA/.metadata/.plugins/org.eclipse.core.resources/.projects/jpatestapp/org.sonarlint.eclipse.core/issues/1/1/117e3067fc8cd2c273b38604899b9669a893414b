@@ -1,0 +1,19 @@
+
+tsquid:S22598"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚—ôúÿÿÿÿHŒRMAJORZBUG
+Xsquid:S11487"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHRMINORZVULNERABILITY
+fsquid:S1854"9Remove this useless assignment to local variable "movie".(Ñß›HRMAJORZ
+CODE_SMELL
+j
+squid:S106""9Replace this use of System.out or System.err by a logger.(Í˜²ÿùÿÿÿÿHRMAJORZ
+CODE_SMELL
+e
+squid:S106'"9Replace this use of System.out or System.err by a logger.(‹°¯­HRMAJORZ
+CODE_SMELL
+j
+squid:S106."9Replace this use of System.out or System.err by a logger.(ªÃ„ıøÿÿÿÿH‘RMAJORZ
+CODE_SMELL
+j
+squid:S1060"9Replace this use of System.out or System.err by a logger.(¢—½šùÿÿÿÿH’RMAJORZ
+CODE_SMELL
+Wsquid:S1481"*Remove this unused "movie" local variable.(Ñß›H“RMINORZ
+CODE_SMELL

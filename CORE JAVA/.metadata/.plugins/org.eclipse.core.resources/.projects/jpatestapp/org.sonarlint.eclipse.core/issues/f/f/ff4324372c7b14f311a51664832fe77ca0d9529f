@@ -1,0 +1,15 @@
+
+„squid:CommentedOutCodeLine7"<This block of commented-out lines of code should be removed.(ý¼„ ýÿÿÿÿ8–ñÒÿÔ-HÍ$RMAJORZ
+CODE_SMELL
+q
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ñÿª¤ÿÿÿÿÿ8à ­ÌÔ-HÎ$RMAJORZ
+CODE_SMELL
+{squid:S2259<"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚—ôúÿÿÿÿ8‘®âÊÔ-HÏ$RMAJORZBUG
+_squid:S1148="#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8‘®âÊÔ-HÐ$RMINORZVULNERABILITY
+l
+squid:S1069"9Replace this use of System.out or System.err by a logger.(ÁÎ«ä8‘®âÊÔ-HÑ$RMAJORZ
+CODE_SMELL
+}squid:S2259?"KA "NullPointerException" could be thrown; "entityManager" is nullable here.(¼šÅµþÿÿÿÿ8‘®âÊÔ-HÒ$RMAJORZBUG
+q
+squid:S1061"9Replace this use of System.out or System.err by a logger.(çóãÐûÿÿÿÿ8–ñÒÿÔ-HÓ$RMAJORZ
+CODE_SMELL

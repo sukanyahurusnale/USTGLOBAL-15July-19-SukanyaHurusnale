@@ -1,0 +1,15 @@
+
+}squid:S22593"KA "NullPointerException" could be thrown; "entityManager" is nullable here.(¼šÅµşÿÿÿÿ8º…ÇıÔ-H€$RMAJORZBUG
+e
+squid:S106&"9Replace this use of System.out or System.err by a logger.(ˆûââH$RMAJORZ
+CODE_SMELL
+j
+squid:S106("9Replace this use of System.out or System.err by a logger.(¢—½šùÿÿÿÿH‚$RMAJORZ
+CODE_SMELL
+Xsquid:S1148/"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHƒ$RMINORZVULNERABILITY
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹°¯­H„$RMAJORZ
+CODE_SMELL
+tsquid:S22590"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚—ôúÿÿÿÿH…$RMAJORZBUG
+Zsquid:S1481"(Remove this unused "car" local variable.(³½ªËúÿÿÿÿH†$RMINORZ
+CODE_SMELL

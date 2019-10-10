@@ -1,0 +1,28 @@
+
+‹squid:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(—ÔšÿÿÿÿÿHË#RMINORZ
+CODE_SMELL
+j
+squid:S106)"9Replace this use of System.out or System.err by a logger.(Œ–“„ûÿÿÿÿHÌ#RMAJORZ
+CODE_SMELL
+e
+squid:S106-"9Replace this use of System.out or System.err by a logger.(ÜæµúHÍ#RMAJORZ
+CODE_SMELL
+csquid:S1854,"6Remove this useless assignment to local variable "b3".(åÿ´HÎ#RMAJORZ
+CODE_SMELL
+Tsquid:S1481,"'Remove this unused "b3" local variable.(åÿ´HÏ#RMINORZ
+CODE_SMELL
+j
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ôÆüÑùÿÿÿÿHĞ#RMAJORZ
+CODE_SMELL
+j
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ï‘¿öøÿÿÿÿHÑ#RMAJORZ
+CODE_SMELL
+qsquid:UselessImportCheck"7Remove this unused import 'com.dev.encapsulation.Pets'.(õÄë™HÒ#RMINORZ
+CODE_SMELL
+e
+squid:S106""9Replace this use of System.out or System.err by a logger.(˜¶İHÓ#RMAJORZ
+CODE_SMELL
+e
+squid:S1065"9Replace this use of System.out or System.err by a logger.(­¨¾ HÔ#RMAJORZ
+CODE_SMELL

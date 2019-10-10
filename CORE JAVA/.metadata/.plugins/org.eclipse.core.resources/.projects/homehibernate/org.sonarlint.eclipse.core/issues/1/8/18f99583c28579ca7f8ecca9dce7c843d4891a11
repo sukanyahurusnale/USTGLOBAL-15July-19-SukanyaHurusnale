@@ -1,0 +1,30 @@
+
+j
+squid:S106("9Replace this use of System.out or System.err by a logger.(óŠÀôøÿÿÿÿH¤$RMAJORZ
+CODE_SMELL
+e
+squid:S106'"9Replace this use of System.out or System.err by a logger.(ÓúøÍH¥$RMAJORZ
+CODE_SMELL
+j
+squid:S1060"9Replace this use of System.out or System.err by a logger.(œË«şÿÿÿÿÿH¦$RMAJORZ
+CODE_SMELL
+tsquid:S22595"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚—ôúÿÿÿÿH§$RMAJORZBUG
+j
+squid:S106+"9Replace this use of System.out or System.err by a logger.(ÿâöøÿÿÿÿH¨$RMAJORZ
+CODE_SMELL
+e
+squid:S106-"9Replace this use of System.out or System.err by a logger.(Î¨ØH©$RMAJORZ
+CODE_SMELL
+e
+squid:S106."9Replace this use of System.out or System.err by a logger.(î«Ê´Hª$RMAJORZ
+CODE_SMELL
+e
+squid:S106/"9Replace this use of System.out or System.err by a logger.(–÷ÉšH«$RMAJORZ
+CODE_SMELL
+e
+squid:S106)"9Replace this use of System.out or System.err by a logger.(®âŠH¬$RMAJORZ
+CODE_SMELL
+d
+squid:S106*"9Replace this use of System.out or System.err by a logger.(±ïÆ+H­$RMAJORZ
+CODE_SMELL
+Xsquid:S11486"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH®$RMINORZVULNERABILITY

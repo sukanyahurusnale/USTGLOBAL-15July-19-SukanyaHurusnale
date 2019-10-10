@@ -1,0 +1,17 @@
+package com.dev.threads;
+
+public class SinkMainThread {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		System.out.println("SyncMain Thread started......");
+		
+		Printer p=new Printer();
+	
+		
+		System.out.println("SyncMain Thread terminated...");
+		
+
+	}
+
+}

@@ -1,0 +1,24 @@
+
+q
+squid:S106;"9Replace this use of System.out or System.err by a logger.(²àéÁüÿÿÿÿ8±íÇÔ-H’$RMAJORZ
+CODE_SMELL
+Zsquid:S1481"(Remove this unused "car" local variable.(³½ªËúÿÿÿÿH“$RMINORZ
+CODE_SMELL
+j
+squid:S106 "9Replace this use of System.out or System.err by a logger.(Í˜²ÿùÿÿÿÿH”$RMAJORZ
+CODE_SMELL
+tsquid:S2259<"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚—ôúÿÿÿÿH•$RMAJORZBUG
+e
+squid:S106%"9Replace this use of System.out or System.err by a logger.(‹°¯­H–$RMAJORZ
+CODE_SMELL
+j
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ªÃ„ıøÿÿÿÿH—$RMAJORZ
+CODE_SMELL
+j
+squid:S106)"9Replace this use of System.out or System.err by a logger.(”É‘ÃûÿÿÿÿH˜$RMAJORZ
+CODE_SMELL
+j
+squid:S1063"9Replace this use of System.out or System.err by a logger.(¢—½šùÿÿÿÿH™$RMAJORZ
+CODE_SMELL
+isquid:S1854"7Remove this useless assignment to local variable "car".(³½ªËúÿÿÿÿHš$RMAJORZ
+CODE_SMELL

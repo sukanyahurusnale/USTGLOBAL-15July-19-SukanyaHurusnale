@@ -1,0 +1,17 @@
+
+`squid:S3518"7Make sure "q" can't be zero before doing this division.(«„‹¨HÚ#RCRITICALZBUG
+‘squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ñš‹ëûÿÿÿÿHÛ#RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(«„‹¨HÜ#RMAJORZ
+CODE_SMELL
+gsquid:S1854"5Remove this useless assignment to local variable "s".(Ñš‹ëûÿÿÿÿHİ#RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŒïÍHŞ#RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(Úº¢ØøÿÿÿÿHß#RMAJORZ
+CODE_SMELL
+Xsquid:S1481"&Remove this unused "s" local variable.(Ñš‹ëûÿÿÿÿHà#RMINORZ
+CODE_SMELL

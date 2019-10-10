@@ -1,0 +1,19 @@
+
+zsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(—‚’HìRMINORZ
+CODE_SMELL
+tsquid:S2259'"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚—ôúÿÿÿÿHíRMAJORZBUG
+vsquid:S2259)"KA "NullPointerException" could be thrown; "entityManager" is nullable here.(¼šÅµþÿÿÿÿHîRMAJORZBUG
+Xsquid:S1148&"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHïRMINORZVULNERABILITY
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÍÖôôHðRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÇàÒÇýÿÿÿÿHñRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(•˜¤õHòRMAJORZ
+CODE_SMELL
+Ysquid:S1481"'Remove this unused "sc" local variable.(ðÛ²¸øÿÿÿÿHóRMINORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(£ÁºÅHôRMAJORZ
+CODE_SMELL
